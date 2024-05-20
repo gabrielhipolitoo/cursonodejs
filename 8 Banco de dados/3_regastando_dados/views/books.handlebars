@@ -1,0 +1,6 @@
+<h1>Livros disponiveis</h1>
+<div class="books-container">
+    {{#each data}}
+    <div>#{{this.id}} - <span>{{this.title}}</span> - {{this.pageqty}} páginas </div>
+    {{/each}}
+</div>
